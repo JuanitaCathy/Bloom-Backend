@@ -25,7 +25,6 @@ lint = [
     "pre-commit>=3.5.0",
 ]
 
-
 [tool.pdm.scripts]
 start = "uvicorn bloom.app:app"
 dev = "uvicorn bloom.app:app --reload"
@@ -40,3 +39,19 @@ exclude = ["src/*", ".git", "docs", "migrations/*", "bloom/models/*"]
 
 [tool.ruff.mccabe]
 max-complexity = 10
+
+[tool.poetry]
+name = "project"
+version = "0.1.0"
+description = "Bloom-Backend"
+authors = ["Kanishk Pachauri"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
