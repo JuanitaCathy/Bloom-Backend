@@ -65,6 +65,32 @@ pdm run migrate
 pdm run start
 ```
 
+- <h3> Install dependencies using Poetry </h3>
+
+- You need to have Python 3.9 installed in your system
+
+- Install Poetry. You can do this using `pip`
+
+   ```bash
+   pip install poetry
+   
+- Clone the Repository
+
+```bash
+# Clone the repository
+git clone https://github.com/blossomlabsio/Bloom-Backend.git
+
+# Change Directory to the Project
+cd Bloom-Backend
+
+# Install dependencies using Poetry
+poetry install
+
+# Run the Project
+poetry init
+```
+
+
 ## 🐍 Python Version Support
 
 This project is compatible with the following Python versions:
